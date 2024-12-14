@@ -32,6 +32,8 @@ p {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .wrapper img {
   width: 100%;
@@ -53,8 +55,31 @@ p {
   margin: 0;
 }
 
+.preparation__time ul {
+  padding-left: 20px;
+}
+
 .preparation__time li {
-  margin: 4px;
+  padding: 6px;
+  padding-left: 20px;
+}
+
+.ingredients ul {
+  padding-left: 20px;
+}
+
+.ingredients li {
+  padding: 6px;
+  padding-left: 20px;
+}
+
+.instruction ol {
+  padding-left: 20px;
+}
+
+.instruction li {
+  padding: 6px;
+  padding-left: 20px;
 }
 
 .ingredients h2 {
@@ -83,3 +108,50 @@ hr {
   margin: 4px;
 }
 
+.nutrition {
+  display: flex;
+  flex-direction: column;
+}
+
+.nutrition h2 {
+  font-family: YoungSerif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 300;
+}
+
+table {
+  font-family: Outfit;
+  padding-left: 30px;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 0.5px solid hsl(30, 18%, 87%);
+}
+
+th {
+  text-align: left;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  padding-bottom: 8px;
+  width: 50%;
+  padding-left: 35px;
+}
+
+td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
